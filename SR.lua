@@ -111,7 +111,7 @@ local Toggle = Tab:CreateToggle({
 								local magnitude =
 								(L_8.Character.HumanoidRootPart.Position -
 								game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
-								if 35 >= magnitude  then
+								if 5 >= magnitude  then
 									game:GetService("ReplicatedStorage").Events.Slap:FireServer(L_8.Character.Torso)
 								end
 							end
