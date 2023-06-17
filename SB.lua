@@ -2329,10 +2329,10 @@ local Toggle = Tab:CreateToggle({
 local Tab = Window:CreateTab("Players", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("WalkSpeed")
 
-local speedval = 65
+local speedval = 80
 local realjump = false
 local autoj = false
-local jumpheight = 50
+local jumpheight = 70
 
 local Toggle = Tab:CreateToggle({
    Name = "Auto WS Bypass",
