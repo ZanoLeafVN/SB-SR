@@ -1,4 +1,3 @@
-NotificationLibrary:SendNotification("Success", "Game Supported!", 5)
 local decal_codes = {
     ["http://www.roblox.com/asset/?id=9648769161"] = "4",
 
