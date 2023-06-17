@@ -474,7 +474,7 @@ local Toggle = Tab:CreateToggle({
 
                                     local Magnitude = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - Player.Character.HumanoidRootPart.Position).Magnitude
                                     
-                                    if 25 >= Magnitude then
+                                    if 85 >= Magnitude then
                                         
                                         shared.gloveHits[getGlove()]:FireServer(Player.Character:WaitForChild("Head"))
                                         
