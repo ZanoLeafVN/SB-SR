@@ -63,7 +63,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "A00PKIDD Hub",
    LoadingSubtitle = "by a00pkidd",
    ConfigurationSaving = {
-      Enabled = true,
+      Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "Big Hub"
    }
